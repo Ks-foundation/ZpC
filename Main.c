@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "Snetwork.h"
+
 #include "easyosdir.h"
 
 #define MAX_FILENAME_LENGTH 256
@@ -273,8 +273,7 @@ int main() {
         }
     }
 
-    // 네트워크 정리
-    network_cleanup(0);
+    
 
     return 0;
 }
