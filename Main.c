@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
 #include "easyosdir.h"
 
 #define MAX_FILENAME_LENGTH 256
